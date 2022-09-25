@@ -1,0 +1,6 @@
+version : "3.3"
+services : 
+ wed :
+  build : .
+  ports:
+    - "8585:3000"
